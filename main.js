@@ -13,7 +13,7 @@ app.use(
   cors({
     credentials: true,
     origin: [
-      "", // add the origin of frontend here
+      "http://159.203.168.51", // add the origin of frontend here
     ],
   })
 );
