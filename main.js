@@ -14,6 +14,7 @@ app.use(
     credentials: true,
     origin: [
       "http://159.203.168.51", // add the origin of frontend here
+      "http://localhost:4200"
     ],
   })
 );
