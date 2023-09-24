@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { timestamp } from "rxjs";
 
 const meesageSchema = new mongoose.Schema(
   {
@@ -23,7 +22,7 @@ const meesageSchema = new mongoose.Schema(
       required: true,
     },
   },
-  timestamp
+  {timestamps: true}
 );
 
 export const Notification = mongoose.model("Notification", meesageSchema);
